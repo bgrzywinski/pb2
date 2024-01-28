@@ -1,0 +1,18 @@
+export const productImages = [
+  "/assets/pb_images/cicha2.jpg",
+  "/assets/pb_images/cicha1.jpg",
+  "/assets/pb_images/cicha3.jpg",
+  "/assets/pb_images/cicha4.jpg",
+  "/assets/pb_images/pb1.jpg",
+  "/assets/pb_images/pb2.jpg",
+  "/assets/pb_images/pb3.jpg",
+  "/assets/pb_images/pb4.jpg",
+  "/assets/pb_images/pb6.jpg",
+  "/assets/pb_images/pb7.jpg",
+  "/assets/pb_images/pb9.jpg",
+  "/assets/pb_images/pb10.jpg",
+  "/assets/pb_images/pb12.jpg",
+  "/assets/pb_images/pb13.jpg",
+  "/assets/pb_images/pb17.jpg",
+  "/assets/pb_images/pbcocktail4.jpg",
+];
