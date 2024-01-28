@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Cocktails3 = () => {
   return (
-    <div className="2xl:py-12 xl:py-4">
+    <div className="2xl:py-20  lg:py-12 py-4">
       <div className="flex justify-center items-center">
         <h1 className="font-bold border-b-[1px] border-black text-white py-1 2xl:text-15 text-12">
           KOKTAJLE HOMEMADE

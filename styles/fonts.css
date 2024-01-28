@@ -21,5 +21,30 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Circe';
+    src: url('../public/fonts/CRC25.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Circe';
+    src: url('../public/fonts/CRC35.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Circe';
+    src: url('../public/fonts/CRC55.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: url('../public/fonts/CRC65.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}

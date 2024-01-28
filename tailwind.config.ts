@@ -11,7 +11,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         spartan: ["League Spartan", "sans-serif"],
-        ubuntu: ['Ubuntu', 'sans-serif'],
+        circe: ["Circe", "system-ui", "sans-serif"],
       },
       borderRadius: {
         rounded50: "50px",
@@ -27,7 +27,7 @@ const config: Config = {
       },
       fontSize: {
         "12": "12px",
-        '13': '13px',
+        "13": "13px",
         "10": "10px",
         "20": "20px",
         "14": "14px",
@@ -48,6 +48,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [require("@tailwindcss/typography"), require("postcss-nested")],
 };
 export default config;

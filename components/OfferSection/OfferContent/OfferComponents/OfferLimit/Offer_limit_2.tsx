@@ -1,6 +1,6 @@
 const Offer_limit_2 = () => {
   return (
-    <div className="2xl:py-12 xl:py-3">
+    <div className="2xl:py-12 lg:py-12 py-4">
       <div className="flex justify-center items-center">
         <h1 className="font-bold border-b-[1px] border-black text-white py-1 2xl:text-15 text-12">
           PAKIET LIMITOWANY

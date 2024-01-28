@@ -27,7 +27,7 @@ const NavItem: FC<{
         passHref
         onClick={handleClick}
         className={mergeClasses(
-          "text-white 2xl:text-14 xl:text-10 uppercase mr-8 hover:border-sky-300 hover:border-b-[1px] py-[3px]",
+          "text-white 2xl:text-14 text-10 uppercase mr-8 hover:border-sky-300 hover:border-b-[1px] py-[3px]",
           `${className}`,
         )}
       >

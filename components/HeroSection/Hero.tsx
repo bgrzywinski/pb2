@@ -35,10 +35,10 @@ const Hero = () => {
         <div
           id="hero_description"
           ref={ref}
-          className="py-28 xl:mt-10 relative xl:mx-[171px] mx-20 border-b border-gray-400 opacity-0"
+          className="max-w-[1200px] py-28 xl:mt-10 relative xl:mx-[171px] mx-20 border-b border-gray-400 opacity-0"
         >
           <div className="max-w-[100px] flex xl:flex-row-reverse flex-col-reverse pr-[40px]">
-            <h2 className="2xl:text-15 text-15 font-extrabold py-8">CZEŚĆ!</h2>
+            <h2 className="2xl:text-xl text-15 font-extrabold py-8">CZEŚĆ!</h2>
             <Image
               src="/assets/icons/blacklogo.png"
               alt="headlogo"
