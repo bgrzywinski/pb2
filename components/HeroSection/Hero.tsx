@@ -37,7 +37,7 @@ const Hero = () => {
           ref={ref}
           className="max-w-[1200px] py-28 xl:mt-16 relative xl:mx-[171px] mx-8 opacity-0"
         >
-          <div className="max-w-[100px] flex xl:flex-row-reverse flex-col-reverse pr-[33px]">
+          <div className="max-w-[100px] flex xl:flex-row-reverse flex-col-reverse 2xl:pr-[33px] xl:pr-12">
             <h2 className="2xl:text-xl text-15 font-bold py-8">CZEŚĆ!</h2>
             <Image
               src="/assets/icons/blacklogo.png"

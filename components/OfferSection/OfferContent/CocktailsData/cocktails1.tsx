@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Cocktails1 = () => {
   return (
-    <div className="2xl:py-20 xl:py-12 lg:py-6 py-4">
+    <div className="2xl:py-20 xl:py-6 py-4">
       <div className="flex justify-center items-center">
         <h1 className="font-bold border-b-[1px] border-black text-white py-1 2xl:text-13 text-11">
           KOKTAJLE KLASYCZNE
@@ -15,7 +15,7 @@ export const Cocktails1 = () => {
           className="ml-2 2xl:mb-2 mb-3"
         />
       </div>
-      <ul className="mt-2 lg:min-w-[400px] flex flex-col 2xl:gap-2">
+      <ul className="mt-2 lg:min-w-[400px] flex flex-col 2xl:gap-2 ">
         <li>
           <h2 className="h2_cocktail">WHISKEY SOUR</h2>
           <p className="p_cocktail">whiskey, sour, białko, angostura</p>

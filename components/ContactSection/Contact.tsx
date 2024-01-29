@@ -35,10 +35,10 @@ const Contact = () => {
       >
         <div className="w-40">
           <Image
-            src="/assets/icons/dance.png"
+            src="/assets/dance3.png"
             alt="dance"
             fill
-            className="object-contain opacity-30"
+            className="object-contain opacity-30 mt-[22px]"
           />
         </div>
         <h3 className="2xl:text-4xl xl:text-3xl sm:text-2xl text-xl font-semibold 2xl:py-36 py-16 xl:mt-24 mt-16 text-center">

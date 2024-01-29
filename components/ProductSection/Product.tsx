@@ -57,10 +57,10 @@ const Product = () => {
         className="border-b border-gray-300 opacity-0 relative mx-10"
       >
         <Image
-          src="/assets/icons/toast.png"
+          src="/assets/toast.png"
           alt="toast"
           fill
-          className="object-contain opacity-30"
+          className="object-contain opacity-20"
         />
         <h3 className="2xl:text-4xl xl:text-3xl sm:text-2xl text-xl font-semibold 2xl:py-36 py-16 xl:mt-24 mt-16 text-center">
           RZUĆ OKIEM NA NASZE REALIZACJE
