@@ -57,7 +57,7 @@ const Product = () => {
         className="border-b border-gray-300 opacity-0 relative mx-10"
       >
         <Image
-          src="/assets/toast.png"
+          src="/assets/icons/toast.png"
           alt="toast"
           fill
           className="object-contain opacity-20"
