@@ -33,7 +33,15 @@ const Contact = () => {
         ref={ref}
         className="opacity-0 border-b border-gray-400 mx-10 mt-32"
       >
-        <h3 className="2xl:text-5xl xl:text-3xl sm:text-2xl text-xl font-semibold 2xl:py-36 py-16 xl:mt-24 mt-16 text-center">
+        <div className="w-40">
+          <Image
+            src="/assets/icons/dance.png"
+            alt="dance"
+            fill
+            className="object-contain opacity-30"
+          />
+        </div>
+        <h3 className="2xl:text-4xl xl:text-3xl sm:text-2xl text-xl font-semibold 2xl:py-36 py-16 xl:mt-24 mt-16 text-center">
           {" "}
           I SKONTAKTUJ SIĘ Z NAMI!
         </h3>
@@ -43,12 +51,7 @@ const Contact = () => {
         className="w-full flex md:flex-row flex-col md:gap-0 gap-12 justify-evenly items-center py-32"
       >
         <div className="2xl:w-[450px] 2xl:h-[450px] w-[350px] h-[350px] relative">
-          <Image
-            src="/assets/icons/blacklogo.png"
-            alt="blacklogo"
-            fill
-            objectFit="cover"
-          />
+          <Image src="/assets/icons/blacklogo.png" alt="blacklogo" fill />
         </div>
         {formSubmitted ? (
           <div className="flex flex-col items-center gap-4">
@@ -68,6 +71,7 @@ const Contact = () => {
               src="/assets/pb_images/cicha3.jpg"
               alt="form"
               fill
+              sizes="w-auto h-auto"
               className="object-cover rounded-2xl blur-[4px]"
             />
             <div className="relative">

@@ -85,6 +85,8 @@ const Navigation = () => {
               alt="logo"
               width={75}
               height={75}
+              sizes="w-auto h-auto"
+              className="object-contain"
             />
           </Link>
         </div>

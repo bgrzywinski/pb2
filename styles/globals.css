@@ -59,17 +59,25 @@ body {
   background-image: linear-gradient(to right, transparent, blanchedalmond, transparent);
   color: black;
   padding: 4px 8px;
+
+  @media (max-width: 640px) {
+    font-size: 9px;
+  }
 }
 
 .p_cocktail {
-  font-size: 10px;
-  font-weight: 600;
+  font-size: 9px;
+  font-weight: 500;
   padding: 4px 8px;
   text-transform: uppercase;
+
+  @media (max-width: 640px) {
+    font-size: 8px;
+  }
 }
 
 .li_offerScript {
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 700;
   padding: 8px 6px;
   display: flex;

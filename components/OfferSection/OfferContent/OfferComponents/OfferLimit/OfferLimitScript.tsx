@@ -29,8 +29,8 @@ const OfferLimitScript: FC = () => {
           <Image
             src="/assets/icons/left-arrow.png"
             alt="left"
-            width={50}
-            height={50}
+            width={40}
+            height={40}
             className="w-auto h-auto"
           />
         </button>
@@ -48,8 +48,8 @@ const OfferLimitScript: FC = () => {
           <Image
             src="/assets/icons/right-arrow.png"
             alt="right"
-            width={50}
-            height={50}
+            width={40}
+            height={40}
             className="w-auto h-auto"
           />
         </button>

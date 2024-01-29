@@ -16,6 +16,7 @@ const OfferItem: FC<{
           alt="bl"
           width={80}
           height={80}
+          className="object-contain"
         />
       </div>
     </div>

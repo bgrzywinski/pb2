@@ -49,14 +49,20 @@ const Product = () => {
         alt="whitelogo2"
         width={200}
         height={200}
-        className="animate-smoothBounce -mt-14"
+        className="animate-smoothBounce -mt-14 w-auto h-auto"
       />
       <div
         id="product_title"
         ref={ref}
         className="border-b border-gray-300 opacity-0 relative mx-10"
       >
-        <h3 className="2xl:text-5xl xl:text-3xl sm:text-2xl text-xl font-semibold 2xl:py-36 py-16 xl:mt-24 mt-16 text-center">
+        <Image
+          src="/assets/icons/toast.png"
+          alt="toast"
+          fill
+          className="object-contain opacity-30"
+        />
+        <h3 className="2xl:text-4xl xl:text-3xl sm:text-2xl text-xl font-semibold 2xl:py-36 py-16 xl:mt-24 mt-16 text-center">
           RZUĆ OKIEM NA NASZE REALIZACJE
         </h3>
       </div>
@@ -75,12 +81,12 @@ const Product = () => {
             className="transition transform active:scale-150"
             onClick={handlePrevClick}
           >
-            <div className="2xl:w-[60px] 2xl:h-[60px] w-[30px] h-[30px]">
+            <div className="2xl:w-[50px] 2xl:h-[50px] w-[30px] h-[30px]">
               <Image
                 src="/assets/icons/left-arrow.png"
                 alt="left"
                 fill
-                objectFit="contain"
+                sizes="w-auto h-auto"
               />
             </div>
           </button>
@@ -91,12 +97,12 @@ const Product = () => {
             className="transition transform active:scale-150"
             onClick={handleNextClick}
           >
-            <div className="2xl:w-[60px] 2xl:h-[60px] w-[30px] h-[30px]">
+            <div className="2xl:w-[50px] 2xl:h-[50px] w-[30px] h-[30px]">
               <Image
                 src="/assets/icons/right-arrow.png"
                 alt="right"
                 fill
-                objectFit="contain"
+                sizes="w-auto h-auto"
               />
             </div>
           </button>

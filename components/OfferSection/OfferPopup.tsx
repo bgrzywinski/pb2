@@ -6,8 +6,8 @@ const OfferPopup: FC<{
   closePopup: () => void;
 }> = ({ content: ContentComponent, closePopup }) => {
   return (
-    <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-70 flex items-center justify-center z-10">
-      <div className="popup-content rounded-2xl shadow-md relative mx-15 z-20 xl:mt-24 px-6">
+    <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-70 flex items-center justify-center z-10 px-4">
+      <div className="popup-content rounded-2xl shadow-md relative mx-15 z-20 mt-24 px-3">
         <ContentComponent />
         <div className="2xl:w-[40px] 2xl:h-[40px] w-[25px] h-[25px] absolute top-4 right-4">
           <Image
