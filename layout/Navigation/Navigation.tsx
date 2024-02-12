@@ -12,6 +12,7 @@ import Link from "next/link";
 const MobileNavigation = () => {
   const genericHamburgerLine = `h-[1px] w-7 my-[5.5px] bg-white transition ease transform duration-300`;
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div>
       <div className="flex items-center">
@@ -59,7 +60,7 @@ const MobileNavigation = () => {
                 <NavItem
                   key={label}
                   label={label}
-                  onClick={() => setIsOpen(!isOpen)}
+                  setIsOpen={setIsOpen}
                   to={to}
                   className="text-xs"
                 />

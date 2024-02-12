@@ -1,13 +1,16 @@
 import React, { FC } from "react";
-import { mergeClasses } from "@/utils";
 import Link from "next/link";
+import { mergeClasses } from "@/utils";
 
-const NavItem: FC<{
+interface NavItemProps {
   className?: string;
   label: string;
   to: string;
-  onClick?: React.MouseEventHandler<HTMLButtonElement>;
-}> = ({ label, to, className }) => {
+  onClick?: React.MouseEventHandler<HTMLAnchorElement>;
+  setIsOpen?: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const NavItem: FC<NavItemProps> = ({ label, to, className, setIsOpen }) => {
   const handleClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault();
 
@@ -19,7 +22,11 @@ const NavItem: FC<{
         behavior: "smooth",
       });
     }
+    if (setIsOpen) {
+      setIsOpen(false);
+    }
   };
+
   return (
     <li>
       <Link

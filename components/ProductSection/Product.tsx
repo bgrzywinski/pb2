@@ -20,15 +20,6 @@ const Product = () => {
     setCurrentImageIndex(newIndex);
   };
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setCurrentImageIndex(
-        (prevIndex) => (prevIndex + 1) % productImages.length,
-      );
-    }, 4000);
-    return () => clearInterval(intervalId);
-  }, [currentImageIndex, productImages.length]);
-
   const [ref, inView] = useInView({
     triggerOnce: true,
   });

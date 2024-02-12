@@ -4,7 +4,6 @@ import Image from "next/image";
 import heroDescription from "@/public/text/descriptions";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-import Navigation from "@/layout/Navigation/Navigation";
 
 const Hero = () => {
   const [ref, inView] = useInView({
@@ -29,6 +28,7 @@ const Hero = () => {
           loop
           muted
           className="w-full min-h-[700px] object-cover"
+          controls={false}
         ></video>
       </div>
       <div className="flex flex-col justify-evenly items-center">
