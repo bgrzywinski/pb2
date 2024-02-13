@@ -55,8 +55,8 @@ const Contact = () => {
         </div>
         {formSubmitted ? (
           <div className="flex flex-col items-center gap-4">
-            <p className="text-3xl text-white font-bold bg-transparent">
-              DZIĘKUJEMY !
+            <p className="text-2xl text-white font-bold bg-transparent">
+              Kłaniamy się nisko!
             </p>
             <Image
               src="/assets/icons/salute.png"

@@ -86,9 +86,9 @@ const ContactForm: FC<ContactFormProps> = ({ onFormSubmit }) => {
         <div className="px-6 mt-4">
           <label
             htmlFor={ContactFormFieldsEnum.Text}
-            className="text-white font-semibold 2xl:text-13 text-10"
+            className="text-white font-semibold 2xl:text-14 text-10"
           >
-            W czym możemy Ci pomóc?
+            Jak możemy Ci pomóc?
           </label>
           <textarea
             id={ContactFormFieldsEnum.Text}
