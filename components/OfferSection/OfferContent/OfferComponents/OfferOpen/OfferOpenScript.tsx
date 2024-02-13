@@ -29,17 +29,15 @@ const OfferOpenScript: FC = () => {
           <Image
             src="/assets/icons/left-arrow.png"
             alt="left"
-            width={50}
-            height={50}
+            width={30}
+            height={30}
             className="w-auto h-auto"
           />
         </button>
       </div>
-      <div className="px-6">
-        {typeof offerPages[currentTextIndex] === "function"
-          ? offerPages[currentTextIndex]()
-          : ""}
-      </div>
+      {typeof offerPages[currentTextIndex] === "function"
+        ? offerPages[currentTextIndex]()
+        : ""}
       <div className="m-auto">
         <button
           className="transition transform active:scale-150"
@@ -48,8 +46,8 @@ const OfferOpenScript: FC = () => {
           <Image
             src="/assets/icons/right-arrow.png"
             alt="right"
-            width={50}
-            height={50}
+            width={30}
+            height={30}
             className="w-auto h-auto"
           />
         </button>

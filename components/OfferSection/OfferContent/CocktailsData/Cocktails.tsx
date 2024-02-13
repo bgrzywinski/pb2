@@ -31,8 +31,8 @@ const Cocktails: FC = () => {
             src="/assets/icons/left-arrow.png"
             alt="left"
             className="w-auto h-auto"
-            width={50}
-            height={50}
+            width={40}
+            height={40}
           />
         </button>
       </div>
@@ -48,8 +48,8 @@ const Cocktails: FC = () => {
             src="/assets/icons/right-arrow.png"
             alt="right"
             className="w-auto h-auto"
-            width={50}
-            height={50}
+            width={40}
+            height={40}
           />
         </button>
       </div>

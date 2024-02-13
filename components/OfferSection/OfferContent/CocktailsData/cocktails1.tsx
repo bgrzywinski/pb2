@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export const Cocktails1 = () => {
   return (
-    <div className="2xl:py-20 py-4">
+    <div className="2xl:py-12 my-4 mx-2 px-3 py-2 shadow-black shadow-2xl rounded-2xl">
       <div className="flex justify-center items-center">
-        <h1 className="font-bold border-b-[1px] border-black text-white py-1 2xl:text-13 text-11">
+        <h1 className="font-bold border-b-[1px] border-black py-1 2xl:text-13 text-11 text-shadow text-white">
           KOKTAJLE KLASYCZNE
         </h1>
         <Image
@@ -12,7 +12,7 @@ export const Cocktails1 = () => {
           alt="cocktail"
           width={40}
           height={20}
-          className="ml-2 2xl:mb-2 mb-3"
+          className="ml-2 mb-3"
         />
       </div>
       <ul className="mt-2 lg:min-w-[400px] flex flex-col 2xl:gap-2 ">
