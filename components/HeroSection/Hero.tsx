@@ -30,7 +30,7 @@ const Hero = () => {
               width={1}
               height={1}
               layout="responsive"
-              className="shadow-2xl shadow-black rounded-[250px] object-contain"
+              className="shadow-2xl shadow-black rounded-[100%] object-contain"
             />
           </div>
         </div>
