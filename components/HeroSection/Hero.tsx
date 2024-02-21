@@ -21,32 +21,27 @@ const Hero = () => {
   }, [inView]);
   return (
     <section className="flex flex-col justify-center items-center" id="hero">
-      <div className="w-full flex md:flex-row flex-col mt-24 md:p-16 p-6 rounded-xl">
-        <div className="md:w-[50vw] w-full bg-gray-300 flex justify-center items-center shadow-gray-600 shadow-2xl rounded-xl">
-          <Image
-            src="/heroborder.svg"
-            alt="22"
-            height={100}
-            width={400}
-            className="relative"
-          />
-          <ul className="absolute font-bold xl:text-14 text-12 flex flex-col gap-4 uppercase shadow-2xl shadow-gray-600 p-8 rounded-xl text-white text-shadow">
-            <li>Wesela</li>
-            <li>Eventy Firmowe</li>
-            <li>Eventy Okazjonalne</li>
-            <li>Sesje koktajlowe</li>
-            <li>Sesje realizowane</li>
-          </ul>
+      <div className="w-full flex md:flex-row flex-col mt-28 md:p-16 p-6 rounded-xl">
+        <div className="md:w-[50vw] bg-gray-300 flex justify-center items-center shadow-gray-600 shadow-2xl rounded-xl relative">
+          <div className="w-[25vw] py-12">
+            <Image
+              src="/assets/icons/blacklogo.png"
+              alt="logo"
+              width={1}
+              height={1}
+              layout="responsive"
+              className="shadow-2xl shadow-black rounded-[250px] object-contain"
+            />
+          </div>
         </div>
-        <div className="md:w-[50vw] w-full rounded-xl">
-          <video
-            src="/assets/herobg2_anim.mp4"
-            autoPlay
-            loop
-            muted
-            className="w-full min-h-[700px] object-cover shadow-gray-600 shadow-2xl rounded-xl"
-            controls={false}
-          ></video>
+        <div className="md:w-[50vw] rounded-xl">
+          <Image
+            src="/assets/herobg3_anim.gif"
+            alt="bg"
+            width={500}
+            height={500}
+            className="min-h-[700px] w-full object-cover shadow-black shadow-2xl rounded-xl"
+          ></Image>
         </div>
       </div>
       <div className="flex flex-col justify-evenly items-center">

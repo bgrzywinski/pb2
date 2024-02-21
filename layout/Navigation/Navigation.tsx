@@ -55,14 +55,14 @@ const MobileNavigation = () => {
           show={isOpen}
         >
           <div className="xl:hidden">
-            <ul className="flex flex-col items-start justify-center gap-8 bg-black rounded-br-2xl p-4">
+            <ul className="flex flex-col items-start justify-center bg-black shadow-black shadow-xl rounded-br-xl px-3 py-8 gap-6">
               {navigationData.map(({ label, to }) => (
                 <NavItem
                   key={label}
                   label={label}
                   setIsOpen={setIsOpen}
                   to={to}
-                  className="text-xs"
+                  className="text-11"
                 />
               ))}
             </ul>
@@ -77,21 +77,21 @@ const Navigation = () => {
   const sections = ["#hero", "#offer", "#product", "#contact"];
   const [isActive] = useSectionObserver(sections);
   return (
-    <nav className="2xl:py-7 xl:py-4 py-3 bg-black shadow-2xl shadow-black z-20 fixed w-full">
+    <nav className="2xl:py-6 xl:py-4 py-3 bg-black shadow-2xl shadow-black z-20 fixed w-full">
       <div className="w-full flex justify-between items-center lg:px-16 px-4 relative">
         <div>
           <Link href="/">
             <Image
-              src="/assets/icons/whitelogo2.png"
+              src="/assets/icons/whitelogo.png"
               alt="logo"
-              width={75}
-              height={75}
+              width={90}
+              height={1}
               sizes="w-auto h-auto"
               className="object-contain"
             />
           </Link>
         </div>
-        <ul className="hidden lg:flex gap-4 uppercase">
+        <ul className="hidden lg:flex gap-12 mr-8 uppercase">
           {navigationData.map(({ label, to, active }) => (
             <NavItem
               key={label}

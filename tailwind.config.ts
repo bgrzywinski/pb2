@@ -16,6 +16,9 @@ const config: Config = {
       borderRadius: {
         rounded50: "50px",
       },
+      boxShadow: {
+        b: "0 4px 3px -1px rgba(0, 0, 0, 0.6), 0 1px 2px -1px rgba(0, 0, 0, 0.06)",
+      },
       screens: {
         sm: "640px",
 
@@ -33,6 +36,7 @@ const config: Config = {
         "20": "20px",
         "14": "14px",
         "15": "15px",
+        "18": "18px",
       },
       gradientColorStops: {
         "black-to-transparent": "rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%",
