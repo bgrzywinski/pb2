@@ -35,38 +35,60 @@ const Product = () => {
   }, [inView]);
   return (
     <section className="flex flex-col items-center">
-      <Image
-        src="/assets/icons/whitelogo2.png"
-        alt="whitelogo2"
-        width={200}
-        height={200}
-        className="animate-smoothBounce -mt-14 w-auto h-auto"
-      />
-      <div
-        id="product_title"
-        ref={ref}
-        className="border-b border-gray-300 opacity-0 relative mx-10"
-      >
-        <Image
-          src="/assets/icons/toast.png"
-          alt="toast"
-          fill
-          className="object-contain opacity-20"
-        />
-        <h3 className="2xl:text-4xl xl:text-3xl sm:text-2xl text-xl font-semibold 2xl:py-36 py-16 xl:mt-24 mt-16 text-center">
+      <div id="product_title" ref={ref} className="">
+        <h3 className="text-white text-[30px]">
           RZUĆ OKIEM NA NASZE REALIZACJE
         </h3>
       </div>
-      <div
+      <div className="carousel_wraper">
+        <div className="carousel mt-40">
+          <div className="item">
+            <Image
+              src="/assets/pb_images/pb3.jpg"
+              alt="img"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="item">
+            <Image
+              src="/assets/pb_images/pb13.jpg"
+              alt="img"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="item">
+            <Image
+              src="/assets/pb_images/pb4.jpg"
+              alt="img"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="item">
+            <Image
+              src="/assets/pb_images/pb5.jpg"
+              alt="img"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="item">
+            <Image
+              src="/assets/pb_images/cicha1.jpg"
+              alt="img"
+              fill
+              className="object-cover"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/*<div
         id="product"
-        className="w-full h-full flex justify-center items-center relative 2xl:py-64 py-36 mt-24"
+        className="w-full h-full flex justify-center items-center relative mt-32"
       >
-        <Image
-          src="/assets/pb_images/cicha4.jpg"
-          alt="productbg"
-          fill
-          className="w-full h-full object-cover blur-sm"
-        />
         <div className="flex items-center gap-1 2xl:w-[650px] 2xl:h-[650px] w-[450px] h-[400px] rounded-3xl px-2">
           <button
             className="transition transform active:scale-150"
@@ -98,7 +120,7 @@ const Product = () => {
             </div>
           </button>
         </div>
-      </div>
+      </div>*/}
     </section>
   );
 };

@@ -27,20 +27,12 @@ const Contact = () => {
   }, [inView]);
 
   return (
-    <section className="flex flex-col items-center bg-gradient-to-b from-white to-gray-600">
+    <section className="flex flex-col items-center">
       <div
         id="contact_title"
         ref={ref}
         className="opacity-0 border-b border-gray-400 mx-10 mt-32"
       >
-        <div className="w-40">
-          <Image
-            src="/assets/dance3.png"
-            alt="dance"
-            fill
-            className="object-contain opacity-30 mt-[22px]"
-          />
-        </div>
         <h3 className="2xl:text-4xl xl:text-3xl sm:text-2xl text-xl font-semibold 2xl:py-36 py-16 xl:mt-24 mt-16 text-center">
           {" "}
           I SKONTAKTUJ SIĘ Z NAMI!
@@ -50,8 +42,14 @@ const Contact = () => {
         id="contact"
         className="w-full flex md:flex-row flex-col md:gap-0 gap-12 justify-evenly items-center py-32"
       >
-        <div className="2xl:w-[450px] 2xl:h-[450px] w-[350px] h-[350px] relative">
-          <Image src="/assets/icons/blacklogo.png" alt="blacklogo" fill />
+        <div className="relative">
+          <Image
+            src="/assets/pb_images/form_card.png"
+            alt="blacklogo"
+            width={350}
+            height={1}
+            className="rounded-xl"
+          />
         </div>
         {formSubmitted ? (
           <div className="flex flex-col items-center gap-4">

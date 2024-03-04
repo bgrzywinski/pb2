@@ -28,13 +28,13 @@ const NavItem: FC<NavItemProps> = ({ label, to, className, setIsOpen }) => {
   };
 
   return (
-    <li className="hover:transition-transform hover:scale-110">
+    <li className="hover:transition-transform hover:scale-[115%]">
       <Link
         href={`${to}`}
         passHref
         onClick={handleClick}
         className={mergeClasses(
-          "text-white 2xl:text-12 text-10 uppercase hover:shadow-xl hover:shadow-sky-400",
+          "text-white 2xl:text-15 text-10 hover:opacity-70",
           `${className}`,
         )}
       >

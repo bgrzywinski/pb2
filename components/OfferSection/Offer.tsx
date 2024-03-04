@@ -49,12 +49,12 @@ const Offer = () => {
   return (
     <section id="offer" className="flex flex-col items-center justify-center">
       <div className="w-full h-full 2xl:py-64 py-32 relative">
-        <Image
+        {/*<Image
           src="/assets/offerbg.jpg"
           alt="offerbg"
           className="object-cover blur-[5px]"
           fill
-        />
+        />*/}
         {showPopup ? (
           <div className="flex justify-center items-center mx-10">
             {selectedItemIndex === 0 ? (

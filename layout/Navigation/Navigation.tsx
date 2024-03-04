@@ -77,21 +77,9 @@ const Navigation = () => {
   const sections = ["#hero", "#offer", "#product", "#contact"];
   const [isActive] = useSectionObserver(sections);
   return (
-    <nav className="2xl:py-6 xl:py-4 py-3 bg-black shadow-2xl shadow-black z-20 fixed w-full">
-      <div className="w-full flex justify-between items-center lg:px-16 px-4 relative">
-        <div>
-          <Link href="/">
-            <Image
-              src="/assets/icons/whitelogo.png"
-              alt="logo"
-              width={90}
-              height={1}
-              sizes="w-auto h-auto"
-              className="object-contain"
-            />
-          </Link>
-        </div>
-        <ul className="hidden lg:flex gap-12 mr-8 uppercase">
+    <nav className="h-20 fixed w-full z-40">
+      <div className="w-full flex justify-evenly items-center lg:px-16 px-4 relative">
+        <ul className="hidden lg:flex gap-12 mr-8 uppercase mt-10">
           {navigationData.map(({ label, to, active }) => (
             <NavItem
               key={label}
