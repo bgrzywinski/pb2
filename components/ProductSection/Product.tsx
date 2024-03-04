@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import ProductItem from "@/components/ProductSection/ProductItem";
 import React, { useEffect, useState } from "react";
 import { productImages } from "@/components/ProductSection/product_images";
 import { useInView } from "react-intersection-observer";
@@ -40,48 +39,46 @@ const Product = () => {
           RZUĆ OKIEM NA NASZE REALIZACJE
         </h3>
       </div>
-      <div className="carousel_wraper">
-        <div className="carousel mt-40">
-          <div className="item">
-            <Image
-              src="/assets/pb_images/pb3.jpg"
-              alt="img"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="item">
-            <Image
-              src="/assets/pb_images/pb13.jpg"
-              alt="img"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="item">
-            <Image
-              src="/assets/pb_images/pb4.jpg"
-              alt="img"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="item">
-            <Image
-              src="/assets/pb_images/pb5.jpg"
-              alt="img"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="item">
-            <Image
-              src="/assets/pb_images/cicha1.jpg"
-              alt="img"
-              fill
-              className="object-cover"
-            />
-          </div>
+      <div className="carousel mt-40 relative">
+        <div className="item">
+          <Image
+            src="/assets/pb_images/pb3.jpg"
+            alt="img"
+            fill
+            className="object-cover"
+          />
+        </div>
+        <div className="item">
+          <Image
+            src="/assets/pb_images/pb13.jpg"
+            alt="img"
+            fill
+            className="object-cover"
+          />
+        </div>
+        <div className="item">
+          <Image
+            src="/assets/pb_images/pb4.jpg"
+            alt="img"
+            fill
+            className="object-cover"
+          />
+        </div>
+        <div className="item">
+          <Image
+            src="/assets/pb_images/pb5.jpg"
+            alt="img"
+            fill
+            className="object-cover"
+          />
+        </div>
+        <div className="item">
+          <Image
+            src="/assets/pb_images/cicha1.jpg"
+            alt="img"
+            fill
+            className="object-cover"
+          />
         </div>
       </div>
 

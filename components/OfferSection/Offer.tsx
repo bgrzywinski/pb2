@@ -47,7 +47,10 @@ const Offer = () => {
   };
 
   return (
-    <section id="offer" className="flex flex-col items-center justify-center">
+    <section
+      id="offer"
+      className="h-screen flex flex-col items-center justify-center"
+    >
       <div className="w-full h-full 2xl:py-64 py-32 relative">
         {/*<Image
           src="/assets/offerbg.jpg"
@@ -58,18 +61,18 @@ const Offer = () => {
         {showPopup ? (
           <div className="flex justify-center items-center mx-10">
             {selectedItemIndex === 0 ? (
-              <div className="2xl:min-h-[800px]">
+              <div className="relative">
                 <OfferPopup
                   content={OfferLimitScript}
                   closePopup={closePopup}
                 />
               </div>
             ) : selectedItemIndex === 1 ? (
-              <div className="relative 2xl:min-h-[800px]">
+              <div className="relative">
                 <OfferPopup content={Cocktails} closePopup={closePopup} />
               </div>
             ) : selectedItemIndex === 2 ? (
-              <div className="relative 2xl:min-h-[800px]">
+              <div className="relativ">
                 <OfferPopup content={OfferOpenScript} closePopup={closePopup} />
               </div>
             ) : (
